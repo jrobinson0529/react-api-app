@@ -1,5 +1,6 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
+import JokeGenerator from '../App/components/jokesAPI/JokeGenerator';
 
 function Routes() {
   return (
@@ -9,7 +10,7 @@ function Routes() {
             <About />
           </Route>
           <Route path="/jokes">
-            <Users />
+            <JokeGenerator />
           </Route>
           <Route path="/lyrics">
             <Lyrics />
@@ -27,10 +28,6 @@ function Home() {
 
 function About() {
   return <h2>weather</h2>;
-}
-
-function Users() {
-  return <h2>jokes</h2>;
 }
 function Lyrics() {
   return <h2>Lyrics</h2>;
