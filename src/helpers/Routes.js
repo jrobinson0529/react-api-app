@@ -1,6 +1,7 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import JokeGenerator from '../App/components/jokesAPI/JokeGenerator';
+import Home from '../views/Home';
 
 function Routes() {
   return (
@@ -22,10 +23,6 @@ function Routes() {
     </div>
   );
 }
-function Home() {
-  return <h2>Home</h2>;
-}
-
 function About() {
   return <h2>weather</h2>;
 }

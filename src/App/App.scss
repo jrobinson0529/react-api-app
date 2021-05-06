@@ -30,6 +30,15 @@
   background-position: center;
   background-size: contain;
 }
+.auth-btn {
+  color: rgba(0,0,0,.5);
+  text-decoration: none;
+  cursor: pointer;
+}
+.auth-btn:hover {
+  color: rgba(0,0,0,.7);
+  text-decoration: none;
+}
 .btn-container {
   margin-top: auto;
   .btn {
