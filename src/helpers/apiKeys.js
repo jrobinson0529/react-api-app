@@ -8,5 +8,8 @@ const firebaseConfig = {
   appId: process.env.REACT_APP_APP_ID,
   measurementId: process.env.REACT_APP_MEASUREMENT_ID,
 };
-
-export default firebaseConfig;
+const openWeatherConfig = {
+  weatherApiKey: process.env.REACT_WEATHER_APP_API_KEY,
+  weatherDatabaseURL: process.env.REACT_WEATHER_APP_DATABASE_URL,
+};
+export { firebaseConfig, openWeatherConfig };
