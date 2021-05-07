@@ -1,6 +1,8 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import JokeGenerator from '../App/components/jokesAPI/JokeGenerator';
+import Lyrics from '../App/components/lyricsAPI/Lyrics';
+import WeatherTracker from '../App/components/weatherAPI/WeatherTracker';
 import Home from '../views/Home';
 
 function Routes() {
@@ -8,7 +10,7 @@ function Routes() {
     <div>
        <Switch>
           <Route path="/weather">
-            <About />
+            <WeatherTracker />
           </Route>
           <Route path="/jokes">
             <JokeGenerator />
@@ -22,11 +24,5 @@ function Routes() {
         </Switch>
     </div>
   );
-}
-function About() {
-  return <h2>weather</h2>;
-}
-function Lyrics() {
-  return <h2>Lyrics</h2>;
 }
 export default Routes;

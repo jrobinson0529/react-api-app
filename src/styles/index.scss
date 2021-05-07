@@ -2,5 +2,7 @@
 @import 'variables';
 
 body {
-  background-color: black;
+  color: $fontColor;
+  background: $background;
+  font-family: 'Coda Caption', sans-serif;
 }
